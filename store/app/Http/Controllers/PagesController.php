@@ -1,9 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Http\Router\PagePath;
-
 class PagesController extends Controller
 {
     public function show(PagePath $path)
@@ -13,3 +11,5 @@ class PagesController extends Controller
         return view('pages.show', compact('page'));
     }
 }
+
+#Written by Ed
